@@ -1,0 +1,64 @@
+#gameZone{
+    background-image: url("https://r4.wallpaperflare.com/wallpaper/982/55/831/movie-one-piece-stampede-one-piece-hd-wallpaper-d9970fdcf3dd86eac766b4fe53384ce8.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    height: 350px;
+    width: 650px;
+    margin: 10px;
+    margin-left: 600px;
+}
+
+.character{
+    background-color: orange;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+
+    background-image: url(https://cdnb.artstation.com/p/assets/covers/images/069/863/945/large/samuel-demilade-samuel-demilade-zoro-44346.jpg?1701192420);
+    background-size: cover;
+    background-position: center;
+
+    display: none;
+}
+
+.naruto{
+    background-image: url(https://creofoto.ru/wp-content/uploads/2023/09/van-pis-luffi-1-2.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+.dd{
+    background: linear-gradient(to right, rgb(93, 93, 204), pink);
+    margin-left: 830px;
+    height: 70px;
+    width: 180px;
+    font-size: 40px;
+}
+.poisk{
+    margin-left: 739px;
+    font-size: 50px;
+
+}
+body{
+    background-image: url(https://staticg.sportskeeda.com/editor/2023/07/6aa58-16895203952197-1920.jpg);
+}
+
+/*При наведении*/
+.character:hover{
+    scale: 1.1;  /*увеличивается размер*/
+}
+
+#bb{
+    font-size: 80px;
+    margin-left: 800px;
+}
